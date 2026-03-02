@@ -1,8 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "YouTube video skip",
+  "name": "__MSG_extensionName__",
   "version": "1.0.0",
-  "description": "Перемотка любого видео в конец по кнопке",
+  "description": "__MSG_extensionDescription__",
+  "default_locale": "en",
   "permissions": ["activeTab", "tabs"],
   "action": {
     "default_popup": "popup/popup.html",

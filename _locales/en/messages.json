@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "YouTube video skip"
+  },
+  "extensionDescription": {
+    "message": "Skip any video to the end with one button"
+  },
+  "popupTitle": {
+    "message": "Video Skip"
+  },
+  "popupHint": {
+    "message": "Skip video to the end"
+  },
+  "skipToEnd": {
+    "message": "To end"
+  },
+  "noActiveTab": {
+    "message": "No active tab"
+  },
+  "done": {
+    "message": "Done"
+  },
+  "videoNotFound": {
+    "message": "Video not found"
+  },
+  "openVideoPage": {
+    "message": "Open a page with video"
+  }
+}

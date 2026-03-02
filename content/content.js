@@ -2,6 +2,7 @@
   'use strict';
 
   const SKIP_BUTTON_ID = 'video-skip-ext-btn';
+  const t = (key) => chrome.i18n.getMessage(key);
   const isYouTube = () =>
     /youtube\.com|youtu\.be/i.test(window.location.hostname);
 
@@ -49,13 +50,14 @@
     );
     if (!playBtn) return;
 
+    const label = t('skipToEnd');
     const btn = document.createElement('button');
     btn.id = SKIP_BUTTON_ID;
     btn.className = 'ytp-button';
-    btn.setAttribute('aria-label', 'В конец');
-    btn.title = 'В конец';
+    btn.setAttribute('aria-label', label);
+    btn.title = label;
     btn.type = 'button';
-    btn.textContent = 'В конец';
+    btn.textContent = label;
     btn.style.cssText = `
       padding: 0 8px;
       font-size: 12px;
@@ -82,7 +84,7 @@
 
     const btn = document.createElement('button');
     btn.id = SKIP_BUTTON_ID;
-    btn.textContent = 'В конец';
+    btn.textContent = t('skipToEnd');
     btn.type = 'button';
     btn.style.cssText = `
       position: fixed;

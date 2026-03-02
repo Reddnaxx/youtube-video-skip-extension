@@ -1,0 +1,29 @@
+{
+  "extensionName": {
+    "message": "YouTube video skip"
+  },
+  "extensionDescription": {
+    "message": "Перемотка любого видео в конец по кнопке"
+  },
+  "popupTitle": {
+    "message": "Video Skip"
+  },
+  "popupHint": {
+    "message": "Перемотка видео в конец"
+  },
+  "skipToEnd": {
+    "message": "В конец"
+  },
+  "noActiveTab": {
+    "message": "Нет активной вкладки"
+  },
+  "done": {
+    "message": "Готово"
+  },
+  "videoNotFound": {
+    "message": "Видео не найдено"
+  },
+  "openVideoPage": {
+    "message": "Откройте страницу с видео"
+  }
+}
