@@ -1,0 +1,22 @@
+{
+  "manifest_version": 1,
+  "name": "YouTube video skip",
+  "version": "1.0.0",
+  "description": "Перемотка любого видео в конец по кнопке",
+  "permissions": ["activeTab", "tabs"],
+  "action": {
+    "default_popup": "popup/popup.html",
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://*.youtube.com/*"],
+      "js": ["content/content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
